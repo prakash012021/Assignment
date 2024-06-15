@@ -1,0 +1,49 @@
+﻿
+@model Assignment_iVally.Models.ViewModel.EmployeeViewModel
+@{
+    Layout = null;
+}
+ 
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <div class="row">
+        <div class="col-4">
+            <label>First Name</label>
+        </div>
+        <div class="col-4">
+            <input type="text" value="@Model.FirstName" name="FirstName" />
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label>Last Name</label>
+        </div>
+        <div class="col-4">
+            <input type="text" value="@Model.LastName" name="LastName" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label>City</label>
+        </div>
+        <div class="col-4">
+            <input type="text" value="@Model.City"  name="City" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <label>Zip</label>
+        </div>
+        <div class="col-4">
+            <input type="text" value="@Model.Zip" name="Zip" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4"><input type="button" class="btn btn-primary" value="Save" id="btnAddEdit" /> </div>
+        <div class="col-4"><input type="button" class="btn btn-light" value="Cancel" id="btnCancelAddEdit" /></div>
+    </div>
+
+
+    <script type="text/javascript">
+
+
+    </script>
